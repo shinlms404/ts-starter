@@ -1,16 +1,27 @@
 {
-  "name": "ts-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.11.0",
-    "typescript": "^5.3.3"
-  }
+	"name": "ts-starter",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"homepage": "https://github.com/shinlms404/ts-starter#readme",
+	"bugs": "https://github.com/shinlms404/ts-starter/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shinlms404/ts-starter.git"
+	},
+	"license": "MIT",
+	"author": "Charlie Chan <shinlms404@gmail.com>",
+	"sideEffects": false,
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.0",
+		"prettier": "^3.2.1",
+		"prettier-plugin-organize-imports": "^3.2.4",
+		"prettier-plugin-packagejson": "^2.4.9",
+		"typescript": "^5.3.3"
+	},
+	"packageManager": "pnpm@8.14.1"
 }

@@ -8,6 +8,6 @@ const config = {
   arrowParens: 'avoid',
   endOfLine: 'lf',
   plugins: ['prettier-plugin-packagejson', 'prettier-plugin-organize-imports']
-};
+}
 
-export default config;
+export default config

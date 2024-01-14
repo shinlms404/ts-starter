@@ -40,5 +40,7 @@ export const EXCLUDE = [
   '**/LICENSE*',
   '**/__snapshots__',
   '**/auto-import?(s).d.ts',
-  '**/components.d.ts'
+  '**/components.d.ts',
+
+  'package.json'
 ]

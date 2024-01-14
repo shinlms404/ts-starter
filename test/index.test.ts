@@ -1,7 +1,6 @@
 import { expect, test } from 'vitest'
-import { defineESlintConfig } from '../src/define'
+import { a, b, sum } from '../src'
 
 test('define', async () => {
-  const configs = await defineESlintConfig()
-  expect(configs).toMatchSnapshot()
+  expect(sum(a, b)).toBe(3)
 })

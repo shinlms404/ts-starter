@@ -1,7 +1,3 @@
-import { createRequire } from 'node:module'
-const require = createRequire(import.meta.url)
-require('sucrase/register')
-/** @type {typeof import('./src/index.ts')} */
-const { defineESlintConfig } = require('./src/index.ts')
+import eslintConfigs from '@shinlms404/eslint-config'
 
-export default defineESlintConfig()
+export default eslintConfigs()

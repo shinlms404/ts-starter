@@ -1,27 +1,34 @@
 {
-	"name": "ts-starter",
-	"version": "1.0.0",
-	"description": "",
-	"keywords": [],
-	"homepage": "https://github.com/shinlms404/ts-starter#readme",
-	"bugs": "https://github.com/shinlms404/ts-starter/issues",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/shinlms404/ts-starter.git"
-	},
-	"license": "MIT",
-	"author": "Charlie Chan <shinlms404@gmail.com>",
-	"sideEffects": false,
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"devDependencies": {
-		"@types/node": "^20.11.0",
-		"prettier": "^3.2.1",
-		"prettier-plugin-organize-imports": "^3.2.4",
-		"prettier-plugin-packagejson": "^2.4.9",
-		"typescript": "^5.3.3"
-	},
-	"packageManager": "pnpm@8.14.1"
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/shinlms404/ts-starter#readme",
+  "bugs": "https://github.com/shinlms404/ts-starter/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinlms404/ts-starter.git"
+  },
+  "license": "MIT",
+  "author": "Charlie Chan <shinlms404@gmail.com>",
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.1",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-packagejson": "^2.4.9",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@8.14.1"
 }

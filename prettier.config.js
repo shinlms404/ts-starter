@@ -6,7 +6,8 @@ const config = {
   singleQuote: true,
   trailingComma: 'none',
   arrowParens: 'avoid',
+  endOfLine: 'lf',
   plugins: ['prettier-plugin-packagejson', 'prettier-plugin-organize-imports']
-}
+};
 
-module.exports = config
+export default config;

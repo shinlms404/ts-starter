@@ -1,6 +1,6 @@
 {
   "name": "eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/shinlms404/eslint-config#readme",
@@ -28,8 +28,20 @@
   "scripts": {
     "build": "tsup --format esm,cjs --clean --dts",
     "lint": "eslint .",
+    "lint:fix": "pnpm run lint --fix",
+    "prepack": "nr build",
+    "prepare": "simple-git-hooks",
+    "release": "bumpp && pnpm publish",
     "stub": "tsup --format esm",
-    "test": "vitest"
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "watch": "tsup --format esm,cjs --watch"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.18.1",
@@ -53,9 +65,12 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
+    "bumpp": "^9.2.1",
+    "lint-staged": "^15.2.0",
     "prettier": "^3.2.1",
     "prettier-plugin-organize-imports": "^3.2.4",
     "prettier-plugin-packagejson": "^2.4.9",
+    "simple-git-hooks": "^2.9.0",
     "sucrase": "^3.35.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
@@ -64,5 +79,8 @@
   "peerDependencies": {
     "eslint": "^8.56.0"
   },
-  "packageManager": "pnpm@8.14.1"
+  "packageManager": "pnpm@8.14.1",
+  "publishConfig": {
+    "access": "public"
+  }
 }

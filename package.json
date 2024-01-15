@@ -1,8 +1,12 @@
 {
   "name": "ts-starter",
   "version": "0.0.4",
-  "description": "",
-  "keywords": [],
+  "description": "A TypeScript starter template",
+  "keywords": [
+    "typescript",
+    "starter",
+    "template"
+  ],
   "homepage": "https://github.com/shinlms404/ts-starter#readme",
   "bugs": "https://github.com/shinlms404/ts-starter/issues",
   "repository": {

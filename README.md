@@ -1,8 +1,6 @@
 # ts-starter
 
-[![npm version](https://badge.fury.io/js/ts-starter.svg)](https://badge.fury.io/js/ts-starter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.org/shinlms404/ts-starter.svg?branch=main)](https://travis-ci.org/shinlms404/ts-starter)
 [![Issues](https://img.shields.io/github/issues/shinlms404/ts-starter.svg)](https://github.com/shinlms404/ts-starter/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/shinlms404/ts-starter/pulls)
 

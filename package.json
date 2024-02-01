@@ -48,7 +48,7 @@
     "*": "eslint --fix"
   },
   "devDependencies": {
-    "@shinlms404/eslint-config": "^0.0.7",
+    "@shinlms404/eslint-config": "^0.0.18",
     "@shinlms404/prettier-config": "^0.1.0",
     "@types/node": "^20.11.14",
     "bumpp": "^9.3.0",
